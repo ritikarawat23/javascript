@@ -40,6 +40,6 @@ function loginUserMessage(username = "sam"){ //here in this line we have given d
     }
     return `${username} just logged in`
 }
-
 console.log(loginUserMessage("ritika"))
+
 
