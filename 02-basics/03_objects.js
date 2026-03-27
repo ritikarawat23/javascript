@@ -29,3 +29,9 @@ JsUser.greeting = function(){
     console.log("Hello JS user");
 } 
 console.log(JsUser.greeting);
+
+JsUser.greetingTwo = function(){
+    console.log(`Hello JS user, ${this.name}`);
+}
+console.log(JsUser.greeting());
+console.log(JsUser.greetingTwo());
